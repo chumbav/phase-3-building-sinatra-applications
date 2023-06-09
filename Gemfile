@@ -18,7 +18,7 @@ gem "rake"
 
 # Provides functionality to interact with a SQLite3 database
 # https://github.com/sparklemotion/sqlite3-ruby
-gem "sqlite3", "~> 1.4"
+gem "sqlite3", "~>1.4.2"
 
 # Require all files in a folder
 # https://github.com/jarmo/require_all
@@ -32,7 +32,7 @@ group :development do
 
   # Auto-reload the server when files are changed
   # https://github.com/alexch/rerun
-  gem "rerun"
+  gem "rerun", "0.13.1"
 
   gem "pry"
 end
